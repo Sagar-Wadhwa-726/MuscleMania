@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 h2 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 2.4rem;
     text-align: center;
+    font-weight: bolder;
     margin: 60px auto 10px auto;
     padding: 11px;
 }
@@ -48,7 +49,7 @@ h3,h4{
     }
 }
 .personimg:hover{
-    box-shadow: 0 0 100px #ff0000;
+    box-shadow: 0 0 20px #ffd900;
 }
 .person{
     margin:7px 7px;

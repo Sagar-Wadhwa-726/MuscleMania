@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 /*CSS RESET*/
     *{
         margin: 0;
@@ -58,15 +59,14 @@
         margin: 5px 40px;
     }
     .navbar ul li a:hover{
-        color: rgb(179, 179, 179);
+        color: rgb(185, 185, 185);
         transition: all 0.5s ease;
-        border-bottom: 1px solid white;
     }
 /*CSS FOR BACKGROUND IMAGE*/
     body::before{
         background:url("https://cdn.pixabay.com/photo/2017/08/07/14/02/man-2604149_1280.jpg");
         content: "";
-        opacity: 0.77;
+        opacity: 0.66;
         z-index: -1;
         background-repeat: no-repeat;
         background-size:cover;
@@ -90,7 +90,7 @@
         flex-direction: column;
     }
     #demo{
-        font-family: 'Trade Winds', cursive;
+        font-family: 'Raleway', sans-serif;
         font-size: 50px;
         position: absolute;
         top:220px;
@@ -98,6 +98,7 @@
         margin: 0;
         padding: 0;
         color: black;
+        font-weight: bolder;
     }
     .textone{
         font-family: 'Roboto', sans-serif;
