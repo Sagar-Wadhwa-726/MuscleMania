@@ -1,13 +1,13 @@
 setTimeout(() => {
   document.getElementById("motivator").classList.remove("hidden");
   document.getElementById("motivator").classList.add("visible");
-}, 2700);
+}, 1999);
 
 
 
 var i = 0;
 var txt = 'Welcome to Muscle Mania!'; /* The text */
-var speed = 100; /* The speed/duration of the effect in milliseconds */
+var speed = 80; /* The speed/duration of the effect in milliseconds */
 typeWriter();
 function typeWriter() 
 {

@@ -9,7 +9,7 @@
 {
     .container {
         flex-direction: column;
-        height: 273vh;
+        height: 240vh;
     }
     .people {
         flex-direction: column;
@@ -30,14 +30,7 @@
 {
     .personimg {
         height: 23vh;
-        width: 34vw;
-    }
-}
-@media only screen and (max-width: 533px)
-{
-    .personimg {
-        height: 23vh;
-        width: 39vw;
+        width: 45vw;
     }
 }
 @media only screen and (max-width: 374px)
