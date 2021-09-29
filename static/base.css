@@ -64,7 +64,7 @@
     }
 /*CSS FOR BACKGROUND IMAGE*/
     body::before{
-        background:url("https://cdn.pixabay.com/photo/2017/08/07/14/02/man-2604149_1280.jpg");
+        background:url("../static/bgimage.jpeg");
         content: "";
         opacity: 0.66;
         z-index: -1;
@@ -223,14 +223,14 @@
         translate: 5px +90px;
         transform: rotate(135deg);
         transition: all 0.33s;
-        background-color: red;
+        /* background-color: red; */
     }
     .cross-two{
         position:absolute;
         translate: -15px 5px;
         transition: all 0.33s ;
         transform: rotate(225deg);
-        background-color: red;
+        /* background-color: red; */
     }
     .cross-three{
         /* animation:cross-animation-three 0.2s all; */
