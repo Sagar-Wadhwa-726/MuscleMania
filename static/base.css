@@ -200,6 +200,11 @@
         cursor: pointer;
         text-decoration: none;
     }
+    .navbar ul li a:link
+    {
+        cursor: none;
+        text-decoration: none;
+    }
     .burger{
         display: block;
     }
