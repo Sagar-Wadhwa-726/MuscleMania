@@ -1,4 +1,4 @@
-# Gym Website Project
+# MuscleMania
 - A basic gym website project which has been developed using the various tech-stacks such as HTML, CSS, JS (both for the frontend and the backend) 
 - PUG has been used for the frontend as the templating engine 
 - For the database, MongoDB has been used to store the various information of the user
