@@ -10,7 +10,7 @@ app.use(servefavicon(path.join(__dirname, 'images', 'favicon.ico')))
 // Mongo specific stuff
 
 // connecting to mongodb database
-mongoose.connect('mongodb://localhost:27017/contactgym', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb://127.0.0.1:27017/contactgym', { useNewUrlParser: true, useUnifiedTopology: true });
 
 // checking for a succesfull connection established or not
 const db = mongoose.connection;
@@ -66,7 +66,7 @@ app.post("/contact", (req, res) => {
     }).catch(() => {
         res.status(400).send("Error 400. Data not saved. Please try again later");
     })
-    
+
 })
 
 //Running app 
